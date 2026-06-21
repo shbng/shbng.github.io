@@ -11,8 +11,7 @@ permalink: fieldfarm/
     <!-- <hr> -->
     {% for post in site.posts %}
     {% assign post_year = post.date | date: "%Y" | plus: 0 %}
-
-    {% if post.categories contains 'Farm' and post_year > 2024 %} {% unless post.tags contains 'Analysis' or post.tags
+    {% if post.categories contains 'Farm' %} {% unless post.tags contains 'Analysis' or post.tags
     contains 'QFT' %} <div class="mypost">
         <h2><a class="postTitle" href="{{ post.url }}">{{ post.title}}</a></h2>
         {{ post.excerpt }}
@@ -27,11 +26,31 @@ permalink: fieldfarm/
     {% endfor %}
 </div>
 
+
+<!-- <div class="myposts" style="margin-top: 20px;">
+    {% for post in site.posts %}
+    {% assign post_year = post.date | date: "%Y" | plus: 0 %}
+
+    {% if post.categories contains 'Farm' and post_year > 2024 %} {% unless post.tags contains 'Analysis' or post.tags
+    contains 'QFT' %} <div class="mypost">
+        <h2><a class="postTitle" href="{{ post.url }}">{{ post.title}}</a></h2>
+        {{ post.excerpt }}
+        <div class="right postPost">
+            <i><span class="postTag">{{ post.tags | join: ", " }}</span></i> <br>
+            <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+        <hr class="pad">
+    </div>
+    {% endunless %}
+    {% endif %}
+    {% endfor %}
+</div> -->
+
 <div class="qft">
 
 </div>
 
-
+<!-- 
 <div class="analysis">
     <svg version="1.1" viewBox="0 0 940 400" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -132,7 +151,7 @@ permalink: fieldfarm/
 
     </svg>
 
-</div>
+</div> -->
 
 
 
@@ -188,9 +207,8 @@ permalink: fieldfarm/
 </div> -->
 
 
-
+<!-- 
 <div class="myposts myposts-2">
-    <!-- <hr> -->
     {% for post in site.posts %}
     {% assign post_year = post.date | date: "%Y" | plus: 0 %}
 
@@ -207,7 +225,7 @@ permalink: fieldfarm/
 {% endunless %}
 {% endif %}
 {% endfor %}
-</div>
+</div> -->
 
 
 <script src="/src/js/blog-art-display.js"></script>
@@ -215,10 +233,13 @@ permalink: fieldfarm/
     .bg {
         max-width: 40rem;
     }
-    h1, .myposts {
+
+    h1,
+    .myposts {
         max-width: 80rem;
         margin-inline: auto;
     }
+
     .active-farm {
         background-color: rgba(0, 0, 0, 0);
         color: black;
