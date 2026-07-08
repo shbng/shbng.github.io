@@ -48,10 +48,10 @@
         <nav>
             <div class="link"><a href="/">HOME</a></div>
             <div class="link"><a href="/academic.html">ACADEMIC</a></div>
-            <div class="link"><a href="/creative.html">CREATIVE</a></div>
             <div class="link"><a href="/fieldfarm">MATH-PH</a></div>
             <div class="link"><a href="/fieldnotes">FIELDNOTES</a></div>
             <div class="link"><a href="/blog">BLOG</a></div>
+            <div class="link"><a href="/creative.html">CREATIVE</a></div>
         </nav>
 
     </header>
@@ -64,7 +64,31 @@
                 
                 <h1 class="page-heading">Hydrogen Atom - The final take?</h1>
                 
-                <p>The study of atoms is a mysterious one, especially when one begins to study this in high school, noting these abstract concepts of wavefunctions and probabilistic explanations. In a first course on Quantum Mechanics one starts tackling this atom rigorously - as the most simple spherically symmetric system and also as a rare exactly solvable example. In this article we uncover some more secrets about this atom, which we learn only after multiple courses in quantum mechanics, and even quantum field theory.</p>
+                <p><br /></p>
+
+<ul>
+  <li><a href="#baby-hydrogen-atom">Baby Hydrogen atom</a></li>
+  <li><a href="#the-algebra-of-hydrogen-atom">The algebra of Hydrogen atom</a>
+    <ul>
+      <li><a href="#angular-momentum-algebra">Angular Momentum algebra</a></li>
+      <li><a href="#the-coupled-basis">The coupled basis</a></li>
+    </ul>
+  </li>
+  <li><a href="#baby-dirac-equation">Baby Dirac equation</a></li>
+  <li><a href="#the-dirac-equation">The Dirac equation</a></li>
+  <li><a href="#fine-structure-of-hydrogen">Fine Structure of Hydrogen</a></li>
+  <li><a href="#perturbation-theory">Perturbation Theory</a>
+    <ul>
+      <li><a href="#darwin-term">Darwin Term</a></li>
+      <li><a href="#relativistic-correction">Relativistic Correction</a></li>
+      <li><a href="#spin-orbit-coupling">Spin-Orbit Coupling</a></li>
+    </ul>
+  </li>
+  <li><a href="#zeeman-structure">Zeeman Structure</a></li>
+</ul>
+
+<p><br />
+The study of atoms is a mysterious one, especially when one begins to study this in high school, encountering abstract concepts of wavefunctions and a probabilistic framework. In a first course on Quantum Mechanics one starts tackling this atom rigorously - as the most simple spherically symmetric system and also as a rare exactly solvable example. In this article we uncover some more secrets about this atom, which we learn only after multiple courses in quantum mechanics, and even quantum field theory.</p>
 
 <p>High resolution spectrometers observed a fine splitting over the degeneracy one is familiar with from high school. What follows is a story about this more richer and broken symmetry in the energy structure.</p>
 
@@ -143,7 +167,7 @@
 
 <p>Here, by algebra, we mostly mean the algebra of angular momentum that’s going to play a crucial role in reconciling the fine structure.</p>
 
-<h3 id="angular-momentum-algebra--">Angular Momentum algebra ——-</h3>
+<h3 id="angular-momentum-algebra">Angular Momentum algebra</h3>
 
 <p>Energy and angular momentum are the fundamental conserved quantities of a classical system. In our solutions to the quantum equations, the quantum numbers $l,m$ are related to the angular momentum. The angular momentum operators read,</p>
 
@@ -179,7 +203,7 @@ $\begin{pmatrix}
 
 <p>These are called the Pauli matrices, and form a 2-dimensional representation of the spin algebra.</p>
 
-<h3 id="spin-orbital-total-angular-momentum---basis-zwe--">Spin, orbital, total angular momentum - basis. Zwe ——-</h3>
+<h3 id="the-coupled-basis">The coupled basis</h3>
 
 <p>We could express our states using $(n,l,m,m_s)$, where $m_z$ is the z-component ($\pm 1/2$) of the intrinsic spin ($s=1/2$). This is usually refered to as the <em>uncoupled basis</em>, where as the <em>coupled basis</em> is obtained by adding the spin $(s,m_s)$ and orbital angular momentum $(l,m_l)$ to give the total angular momentum $(j,m_j)$. The addition of angular momenta for the hydrogen atom reads,</p>
 

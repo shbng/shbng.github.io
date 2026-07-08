@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/src/css/styles.css">
     <link rel="stylesheet" href="/src/css/main.css">
     <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/acad-styles.css">
+
     <!-- <link rel="stylesheet" href="/src/css/creative-styles.css"> -->
     <link rel="stylesheet" href="/src/css/footer.css">
     <link href="https://api.fontshare.com/v2/css?f[]=rosaline@400&display=swap" rel="stylesheet">
@@ -55,10 +57,10 @@
         <nav>
             <div class="link"><a href="/">HOME</a></div>
             <div class="link"><a href="/academic.html">ACADEMIC</a></div>
-            <div class="link"><a href="/creative.html">CREATIVE</a></div>
             <div class="link"><a href="/fieldfarm">MATH-PH</a></div>
             <div class="link"><a href="/fieldnotes">FIELDNOTES</a></div>
             <div class="link"><a href="/blog">BLOG</a></div>
+            <div class="link"><a href="/creative.html">CREATIVE</a></div>
         </nav>
 
     </header>
@@ -66,44 +68,27 @@
     <main>
         <section class="container">
             <div class="academic">
-                <div class="acad-item active">
+                <!-- <div class="acad-item active">
                     <h2>Symplectic Geometry & Classical Mechanics <span>In Progress...<span class="blink">|</span></span></h2>
                     <p class="acad-description">
                     </p>
                     <p class="acad-tag">
                         Project_
                     </p>
-                </div>
-                <div class="acad-item active">
+                </div> -->
+                <!-- <div class="acad-item active">
                     <h2>Riemannian Geometry <span>In Progress...<span class="blink">|</span></span></h2>
                     <p class="acad-description">
                     </p>
                     <p class="acad-tag">
                         Notes_
                     </p>
-                </div>
-                <div class="acad-item active">
-                    <h2>Ideas of Algebra | Ideas of Analysis | Ideas of Geometry <span>In Progress...<span class="blink">|</span></span></h2>
-                    <p class="acad-description" style="opacity: 0.8;">
-                        $$\huge TM\oplus T^*M$$
-                    </p>
-                    <p class="acad-tag">
-                        Exposition X Sci. Com X Teaching_
-                    </p>
-                </div>
-                <div class="acad-item active">
-                    <h2>Ideas of Quantum Field Theory <span>In Progress...<span class="blink">|</span></span></h2>
-                    <p class="acad-description">
-                        <img class="acad-item-img" src="/src/images/One_loop_diagrams.svg">
-                    </p>
-                    <p class="acad-tag">
-                        Exposition X Sci. Com X Teaching_
-                    </p>
-                </div>
+                </div> -->
 
                 <div class="acad-item gauge-fields active">
-                    <h2>Gauge Field Geometry. <span>In progress...<span class="blink">|</span></span></h2>
-                    <p class="acad-tag">Semester & Summer Project_</p>
+                    <h2>Geometric & Topological Aspects of Gauge Theory.<span>In progress...<span
+                                class="blink">|</span></span></h2>
+                    <p class="acad-tag">Semester Project (Extended)_</p>
                     <p class="acad-description">An exposition presenting the geometric foundations of gauge theory and
                         relate them to the physical theories of electromagnetism, Yang-Mills, and gneral
                         relativity. We also outline their influence on low-dimensional topology, particularly through
@@ -111,20 +96,41 @@
                     </p>
                     <img src="/src/vector/gaugefields.svg" alt="" class="acad-item-img">
                 </div>
+
                 <div class="acad-item">
-                    <h2>Differential Geometry.</h2>
-                    <p class="acad-tag">Lecture Notes_</p>
-                    <p class="acad-description">Lecture notes on manifolds, tangent spaces, submanifolds, vector
-                        bundles, vector fields, differential forms, integration on manifolds and Stokes' theorem.</p>
-                        <!-- <img src="/src/vector/manifolds.png" alt="" class="acad-item-img manifolds"> -->
-                </div>
-                <div class="acad-item">
-                    <h2>AdS/CFT Correspondence.</h2>
+                    <h2>AdS/CFT Correspondence & Conformal Geometry.</h2>
                     <p class="acad-tag">Master's Thesis_</p>
                     <p class="acad-description">Studied Riemannian geometry, AdS geometry, structure of 2d CFTs, and
                         their connections.Computed boundary CFT correlation functions via bulk AdS gravity using two
                         equivalent AdS/CFT prescriptions. Related Fefferman & Graham conformal invariants (the ambient
                         metric framework) to some formal aspects of conformal boundary in AdS/CFT.</p>
+                </div>
+                <div class="acad-item">
+                    <h2>Smooth Manifolds.</h2>
+                    <p class="acad-tag">Lecture Notes_</p>
+                    <p class="acad-description">Lecture notes on manifolds, tangent spaces, submanifolds, vector
+                        bundles, vector fields, differential forms, integration on manifolds and Stokes' theorem.</p>
+                    <!-- <img src="/src/vector/manifolds.png" alt="" class="acad-item-img manifolds"> -->
+                </div>
+                <div class="acad-item active">
+                    <h2>Ideas of Mathematics <span>In Progress...<span class="blink">|</span></span></h2>
+                    <p class="acad-tag">
+                        Exposition X Sci. Com X Teaching_
+                    </p>
+                    <p class="acad-description">Companion notes in mathematics to aid in internalising the ideas and
+                        also teaching.</p>
+                </div>
+                <div class="acad-item active">
+                    <h2>Ideas of Quantum Field Theory <span>In Progress...<span class="blink">|</span></span></h2>
+                    <p class="acad-description">
+                        An article on the origins of QFT, perturbative calculations using Feynman diagrams to derive the
+                        coloumb potential and renormalization theory to calculate the anomalous magnetic moment of
+                        electron.
+                        <img class="acad-item-img" src="/src/images/One_loop_diagrams.svg">
+                    </p>
+                    <p class="acad-tag">
+                        Exposition X Sci. Com X Teaching_
+                    </p>
                 </div>
                 <div class="acad-item">
                     <h2>Energy Transfer in Electric Circuits.</h2>
@@ -133,16 +139,7 @@
                         a field-based (Poynting vector) energy transfer. Recorded nanosecond level voltage steps
                         (40-140ns) across the load using a GHz oscilloscope.</p>
                     <!-- <img class="acad-item-img energy-transfer" src="src/vector/energy-transfer-in-circuits.png" alt=""> -->
-
                 </div>
-                <div class="acad-item">
-                    <h2>Finite Difference Methods.</h2>
-                    <p class="acad-tag">Semester Project_</p>
-                    <p class="acad-description">Implemented finite difference methods for PDEs, including the schemes of
-                        Gauss-Seidel, SOR, andMultigrid to improve convergence. Demonstrated these methods on a Laplace
-                        equation with specified boundary constraints.</p>
-                </div>
-
             </div>
         </section>
 

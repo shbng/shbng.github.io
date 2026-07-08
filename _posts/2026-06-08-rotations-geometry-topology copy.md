@@ -2,7 +2,7 @@
 title: Rotations, geometry and the Erlangen program
 layout: default
 tags:
-categories: Farm
+categories: 
 ---
 
 
