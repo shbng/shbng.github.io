@@ -1,5 +1,5 @@
 ---
-title: A break
+title: A break, ft. Symplectic Goemetry
 layout: default
 tags: 
 categories: Blog

@@ -28,7 +28,7 @@ We had a nice intellectual discussion on these aspects, along with many parts of
 
 So, the discussions mainly lead to manifesting a lot of my previous experiences that I had otherwise kept quite about, into a more appreciable listing! Some - like creative coding, computation, web-dev started fitting in nicely and others like articles on analysis, blogs on the site started to take a more professional place and interpretation. I developed the idea further into an _ideas of_ series to capture my self-study process. I was also motivated to make a report out of my rather tedious study on differential geometry and Gauge fields, manifesting the Gauge Fields, Knots and Gravity book read and the QFT II semester project.
 
-I also spent a lot of time on the design aspects of CV :). I am happy to figure a hybrid styling - combining both Ayan's and Abha's CVs.
+I also spent a lot of time on the design aspects of CV :). I am happy to figure a hybrid styling - combining both Ayan's and Abs' CVs.
 
 
 ## Research styles & PhD

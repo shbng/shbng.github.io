@@ -2,7 +2,7 @@
 title: The beauty of the triviality of mathematics
 layout: default
 tags:
-categories: Blog
+categories: 
 ---
 
 

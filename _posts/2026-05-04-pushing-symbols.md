@@ -14,7 +14,7 @@ But yeah, I will stick to the beauty and the terrors of math :). It's too good.
 
 And, in any given sitting/chalking/thought-walking, it takes time to internalise the results/proofs/concepts to feel the naturaliy of everything. Not going through that process becomes again just symbol pushing. May be geniuses can workout everything without internalising things, or perhaps internalise without much effort. But I think on a general level, the process of going through a bachelor's/master's training is that internalisation of fundamental ideas in math and physics. It takes time. And it must be respected. Atleast this whole thing aids in preserving humanness in the scholarly world. Which can involve teaching, communication, engagement and research.
 
-This takes me back to the time when Ashok Sen talked about internalisation too! That day, in the SPS Discuss hall at NISER.He emphasised the difference between the process of *memorising* and *internalising*. That really resonated with my views! 
+This takes me back to the time when Ashok Sen talked about internalisation too! That day, in the SPS Discuss hall at NISER.He emphasised the difference between the process of *memorising* and *internalising*. That really resonated with me! 
 
 So yeah, it's important to sit with things. I just finished the section on dual spaces and the interaction between linear maps and their dual ones. The results are pretty much symbol pushing at first glance. It's not very conceptual, neither immediately natural at first glance. At least, I didn't read them with an energy to pause and slow down at every instant. But sometimes, it's also good to cruise through such non-conceptual things (squeeze in a little win ;)) and then sit with the things to internalise them. So, I am gonna do that now before I move on to solve problems on this. 
 
@@ -24,4 +24,4 @@ I think this process of internalisation can be very personal to an individual to
 
 ---------
 
-It's also hard to do that process. Especially in my current state of affairs to independently stitch my academic narrative before reaching the academics.
+It's also hard to do that process. Especially in my current state of affairs to independently stitch my academic narrative before reaching out to academics.

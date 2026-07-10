@@ -2,7 +2,7 @@
 title: Depression, distraction and the last push
 layout: default
 tags:
-categories: Blog
+categories: 
 ---
 
 Huh, here I am. After all these months of hustle, I think I finally hit the bottom rock of my mental health the last 10 days or so. This depressing mood is wow, just consuming. I never felt this sort of thing for such a long period of time. The issue mostly grows when you don't have an emotional support to atleast temporarily move ahead.
