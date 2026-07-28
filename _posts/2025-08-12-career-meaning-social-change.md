@@ -2,7 +2,7 @@
 title: On Career, meaning and social change
 layout: default
 tags: Career
-categories: Fields
+categories: Blog
 ---
 
 All my life up until this instant, career is the only thing I was supposed to work toward. A career which *provides* (stability/security). All the narratives I've ever heard from the society I have been part of is to get a good job and settle, disconnected from the issues of public or environment. Not a nudge towards its meaningfulness or contribution to the public. I do see where such ideas stem from (begs a different and broder question), but in this blog, I uncover some of my inclinations towards a 'meaningful' career, and analyze different nuances associated with a background in science, especially in abstract math and theoretical physics. 

@@ -2,7 +2,7 @@
 title: The non-triviality of my academic efforts ft. Septoplasty
 layout: default
 tags: Career
-categories: Blog
+categories: 
 # date: October 24th, 2025.
 ---
 

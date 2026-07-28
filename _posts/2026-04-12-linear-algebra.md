@@ -2,7 +2,7 @@
 title: April, here we go
 layout: default
 tags: 
-categories: Blog
+categories: 
 ---
 
 Ah, I am very embarrassed by my efforts to read basic math all these months. Of course, I have talked about it time and again throughout the last year. But it must do it, finish it. 

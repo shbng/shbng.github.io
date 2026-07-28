@@ -2,7 +2,7 @@
 title: Consistency and perturbations
 layout: default
 tags: Career    
-categories: Blog
+categories: 
 ---
 
 Sticking to the februarry master's deadline. Want to get to my pre-surgery consistency. Started working in a more organized way today - basically alternating study sessions and a 10 minute walk reset. 

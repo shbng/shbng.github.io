@@ -2,7 +2,7 @@
 title: A break, ft. Symplectic Goemetry
 layout: default
 tags: 
-categories: Blog
+categories: 
 ---
 
 Last weekend, I was already on a break from studying. I needed it. After trying to work a couple of days after that, I once again find myself pausing it. In the last two days, I took a *break*. I took a break to energise myself with some academic motivation. It's very linear sometimes, just reading reading, checking off section by section, chapter by chapter, without any sense of a medium-term goal. There is a short term goal, and then there's a long-term goal that I can tick off. Now that I know it's going to take a lot of time into the Linear Algebra book, I feel a little unready to face the time.

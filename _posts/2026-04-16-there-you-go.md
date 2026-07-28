@@ -2,7 +2,7 @@
 title: A tangential hope
 layout: default
 tags: 
-categories: Blog
+categories: 
 excerpt: "<br> 8 minutes past twelve today, I received an update from the mentorship team at SGB. Rejection :). The journey around this application was a growing experience! Not gonna hide, it’s sad, and I have been spiraling down ever since. But let me try to pause that and note a few things I am proud of first :)."
 ---
 

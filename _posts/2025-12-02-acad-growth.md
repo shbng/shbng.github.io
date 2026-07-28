@@ -2,7 +2,7 @@
 title: Wrapping my head around Applications and PhD - 1/n
 layout: default
 tags: Academics 
-categories: Fields
+categories: 
 ---
 
 I talked to Sam and Ayan recently. Sam is doing his Master's at University of Edinburgh, and Ayan is doing his PhD in Geometry and Mathematical Physics at SISSA. They both have a Bachelor's in Physics and a strong interest in mathematics. It triggered some good discussions on applications and the nature of a PhD, which allowed me to understand and appreciate the process behind intellectually, instead of a pressure to follow a set of common narratives. Later, I also reached out to Gab, who is pursuing a D.Phil at University of Oxford. I will also note my observations and learnings from very close interactions with Abs, which can sometimes get easier to overlook. Abs is pursuing her PhD at University of Illinois, Urbana-Champaign. <span style="opacity: 60%;">[All names are morphed for privacy reasons.]</span>
