@@ -25,7 +25,17 @@ main {
     .active {
         border: 1px solid rgba(218, 218, 218, 0.352);
         background-color: #101010;
+    }
+}
 
+.acad-intro {
+    text-transform: none;
+    font-family: 'Gill Sans';
+    font-size: 1.05em;
+    line-height: 1.3em;
+    color: #555;
+    a {
+        color: rgb(21, 67, 183);
     }
 }
 
@@ -40,7 +50,6 @@ main {
 
     &:not(.active):hover {
         background-color: #151515;
-
     }
 
     &:hover {
@@ -62,7 +71,7 @@ main {
         letter-spacing: 1.5px;
         left: 10px;
         text-align: right;
-        color: #4B4B4B
+        color: #4B4B4B;
     }
 
     h2 {
@@ -135,15 +144,22 @@ main {
         mix-blend-mode: screen;
         opacity: 0.5;
         width: 40%;
-
     }
 }
 
+/* ---------- Intro: text + image side by side ---------- */
+
 .intro {
-    max-width: 40rem;
+    max-width: 64rem;
     padding-inline: 30px;
     margin-top: 50px;
     margin-inline: auto;
+
+    display: grid;
+    grid-template-columns: minmax(220px, 20rem) minmax(0, 1fr);
+    grid-template-areas: "image text";
+    gap: 40px;
+    align-items: stretch;
 
     h1 {
         text-transform: uppercase;
@@ -161,20 +177,34 @@ main {
         }
     }
 
-    p {
-        text-transform: uppercase;
-        color: #0000008f;
-        font-size: 0.8rem;
-        font-family: "JetBrains Mono", "Fira Code", "SF Mono", "Cascadia Code", Consolas, monospace;
+}
 
-        span {
-            color: #00000070;
-            font-weight: 200;
-        }
+.intro-text {
+    grid-area: text;
+}
 
-        line-height: 25px;
+#intro-img {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0; /* cancels the `main img` margins (50px top, -20px bottom, auto inline) */
+}
+
+/* Stack: image first, then text */
+@media (max-width: 768px) {
+    .intro {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+            "image"
+            "text";
+        gap: 24px;
     }
 
+    #intro-img {
+        max-width: 20rem;
+        margin-inline: auto; /* center the image when stacked */
+    }
 }
 
 @keyframes cursor {
